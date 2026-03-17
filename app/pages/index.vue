@@ -53,26 +53,12 @@
           <div class="relative flex justify-center lg:justify-end hero-image-wrap">
             <!-- Blob background shape -->
             <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[420px] h-[420px] rounded-[60%_40%_55%_45%/50%_60%_40%_50%] bg-[#e8d5be] opacity-70 -z-0"></div>
-            <!-- Image container — replace with <img src="..." /> -->
-            <div
-              class="relative z-10 w-[380px] lg:w-[440px] aspect-[3/4] rounded-2xl border-2 border-dashed border-[#c8873a]/40 bg-[#ede0d0] flex items-center justify-center overflow-hidden shadow-xl"
-            >
-              <!-- Swap this placeholder div for your actual <img> tag -->
-              <div class="text-center text-[#c8873a]/60 select-none">
-                <svg class="w-16 h-16 mx-auto mb-3 opacity-40" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
-                </svg>
-                <p class="text-xs font-medium">Hero Image<br/>504 × 689</p>
-              </div>
-            </div>
+            <img src="@/assets/images/landing/hero.png" alt="">
+          
 
             <!-- Floating card decoration -->
             <div class="absolute -bottom-4 -left-4 lg:left-4 bg-white rounded-xl shadow-xl px-4 py-3 flex items-center gap-3 z-20">
-              <div class="w-9 h-9 rounded-full bg-[#1a1a2e] flex items-center justify-center flex-shrink-0">
-                <svg class="w-4 h-4 text-[#c8873a]" fill="currentColor" viewBox="0 0 20 20">
-                  <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                </svg>
-              </div>
+             
               <div>
                 <p class="text-xs font-bold text-[#1a1a2e]">Verified Badge</p>
                 <p class="text-[10px] text-[#888]">Instantly shareable</p>
