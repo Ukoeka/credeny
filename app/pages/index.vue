@@ -5,15 +5,14 @@
     ═══════════════════════════════════════════ -->
       <section
         id="home"
-        class="relative min-h-screen bg-[#f5ede3] flex items-center pt-[68px] overflow-hidden"
+        class="relative min-h-screen bg-[#f5ede3] flex items-center pt-[50px] overflow-hidden"
       >
-        <!-- Subtle background pattern -->
         <div class="absolute inset-0 pointer-events-none opacity-[0.04]"
           style="background-image: radial-gradient(circle, #1a1a2e 1px, transparent 1px); background-size: 30px 30px;">
         </div>
 
-        <div class="max-w-[1200px] mx-auto px-6 lg:px-10 w-full grid lg:grid-cols-2 gap-12 items-center py-20">
-          <!-- Left: copy -->
+        <div class="max-w-[1400px] mx-auto px-3 lg:px-10 w-full grid lg:grid-cols-2 gap-12 items-center py-20">
+          <!-- Left-side -->
           <div class="hero-text">
             <h1 class="text-[clamp(2.4rem,5vw,3.8rem)] font-extrabold leading-[1.1] tracking-tight text-[#1a1a2e] mb-6">
               Showcase Your<br />
@@ -52,7 +51,7 @@
           <!-- Right: hero image placeholder -->
           <div class="relative flex justify-center lg:justify-end hero-image-wrap">
             <!-- Blob background shape -->
-            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[420px] h-[420px] rounded-[60%_40%_55%_45%/50%_60%_40%_50%] bg-[#e8d5be] opacity-70 -z-0"></div>
+            <div class="absolute  opacity-70 -z-0"></div>
             <img src="@/assets/images/landing/hero.png" alt="">
           
 
@@ -111,7 +110,7 @@
            WHAT WE OFFER
       ═══════════════════════════════════════════ -->
       <section class="bg-[#faf5ee] py-24">
-        <div class="max-w-[1200px] mx-auto px-6 lg:px-10 grid lg:grid-cols-2 gap-16 items-center">
+        <div class="pl-20 lg:pl-20 pr-0 lg:pr-0 grid lg:grid-cols-2 gap-16 items-center">
 
           <!-- Left: text -->
           <div>
@@ -148,50 +147,7 @@
           <!-- Right: app mockup placeholder -->
           <div class="relative">
             <!-- Browser chrome mockup -->
-            <div class="bg-white rounded-2xl shadow-2xl overflow-hidden border border-[#eee]">
-              <!-- Browser bar -->
-              <div class="bg-[#f0f0f0] px-4 py-3 flex items-center gap-2 border-b border-[#e0e0e0]">
-                <div class="flex gap-1.5">
-                  <div class="w-3 h-3 rounded-full bg-[#ff5f57]"></div>
-                  <div class="w-3 h-3 rounded-full bg-[#febc2e]"></div>
-                  <div class="w-3 h-3 rounded-full bg-[#28c840]"></div>
-                </div>
-                <div class="flex-1 bg-white rounded-md h-6 mx-4 flex items-center px-3">
-                  <svg class="w-3 h-3 text-[#bbb] mr-1.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
-                  <span class="text-[10px] text-[#aaa]">credeny.io</span>
-                </div>
-              </div>
-              <!-- App content area — swap with <img src="..." class="w-full" /> -->
-              <div class="flex">
-                <!-- Sidebar -->
-                <div class="w-16 bg-[#1a1a2e] flex flex-col items-center py-4 gap-5 flex-shrink-0">
-                  <div class="w-8 h-8 rounded-lg bg-[#c8873a]/20 flex items-center justify-center">
-                    <div class="w-4 h-4 rounded-full border-2 border-[#c8873a]"></div>
-                  </div>
-                  <div v-for="i in 4" :key="i" class="w-8 h-8 rounded-lg bg-white/5 flex items-center justify-center">
-                    <div class="w-4 h-1 bg-white/20 rounded"></div>
-                  </div>
-                </div>
-                <!-- Main content mockup -->
-                <div class="flex-1 p-5 bg-[#f8f8f8]">
-                  <div class="bg-[#1a9be8] rounded-xl h-16 mb-4 flex items-center px-4">
-                    <div>
-                      <p class="text-white font-bold text-sm">Badge Collection</p>
-                      <p class="text-white/70 text-[10px]">Organize your badges for easy access</p>
-                    </div>
-                  </div>
-                  <div class="grid grid-cols-2 gap-3">
-                    <div v-for="col in badgeCollections" :key="col.name" class="bg-white rounded-xl p-3 shadow-sm">
-                      <div class="flex gap-1 flex-wrap mb-2">
-                        <div v-for="j in 4" :key="j" class="w-7 h-7 rounded-full" :class="col.colors[j-1]"></div>
-                      </div>
-                      <p class="text-[#1a1a2e] text-xs font-semibold">{{ col.name }}</p>
-                      <p class="text-[#aaa] text-[10px]">{{ col.count }} badges</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <img src="@/assets/images/landing/dashboard.png" alt="">
           </div>
         </div>
       </section>
