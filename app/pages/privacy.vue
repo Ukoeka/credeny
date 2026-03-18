@@ -4,12 +4,14 @@
     <!-- ═══════════════════════════════════════════
          HERO BANNER
     ═══════════════════════════════════════════ -->
-    <section class="pt-[68px] bg-[#f5ede3]">
-      <div class="mx-auto px-6 lg:px-10 py-20">
+    <section class="pt-[68px] ">
+      <div class="mx-auto px-20 lg:px-20 py-10">
         <div
-          class="relative w-full rounded-2xl overflow-hidden min-h-[200px] flex items-center justify-center text-center px-6 py-16 bg-cover bg-center bg-no-repeat"
-          style="background-image: url('@/assets/images/randoms/coffee.jpg')"
-        >
+    class="relative w-full rounded-2xl overflow-hidden min-h-[300px] flex items-center justify-center text-center px-6 py-16 bg-cover bg-center bg-no-repeat"
+    :style="{ backgroundImage: `url(${heroBg})` }"
+  >
+    <!-- your content -->
+  
           <!-- Dark overlay -->
           <div class="absolute inset-0 bg-black/50"></div>
 
@@ -31,12 +33,12 @@
     <!-- ═══════════════════════════════════════════
          INTRO TEXT
     ═══════════════════════════════════════════ -->
-    <section class="bg-black py-16">
+    <section class="bg-[#f5ede3] py-16">
       <div class="max-w-[860px] mx-auto px-6 lg:px-10 text-center">
         <p class="text-[#444] text-base lg:text-lg leading-relaxed">
           Welcome to <span class="text-[#c8873a] font-bold">Credeny</span> where we prioritize the protection
-          and privacy of your personal information. This Privacy Policy outlines how we collect, use, and
-          safeguard your data when you use our services.
+          and privacy of your personal <br> information. This Privacy Policy outlines how we collect, use, and
+          safeguard your data <br> when you use our services.
         </p>
       </div>
     </section>
@@ -44,13 +46,13 @@
     <!-- ═══════════════════════════════════════════
          INFORMATION WE COLLECT
     ═══════════════════════════════════════════ -->
-    <section class="bg-black text-white">
-      <div class="grid lg:grid-cols-2 min-h-[420px]">
+    <section class="bg-black text-white justify-center flex w-full">
+      <div class="grid lg:grid-cols-2 min-h-[600px]">
 
         <!-- Left: text -->
         <div class="flex items-center px-10 lg:px-20 py-16">
           <div class="max-w-md">
-            <h2 class="text-2xl lg:text-3xl font-extrabold mb-6 tracking-tight">
+            <h2 class="text-3xl lg:text-5xl font-extrabold mb-6 tracking-tight">
               Information We Collect
             </h2>
             <div class="space-y-4 text-white/75 text-sm leading-relaxed">
@@ -71,7 +73,7 @@
         </div>
 
         <!-- Right: image — replace src with your actual image -->
-        <div class="relative min-h-[360px] lg:min-h-0">
+        <div class="relative min-h-[500px] lg:min-h-0">
           <img
             src="@/assets/images/randoms/collect.png"
             alt="People collaborating"
@@ -265,6 +267,7 @@
 
 <script setup>
 import { ref } from 'vue'
+import heroBg from '@/assets/images/randoms/coffee.jpg'
 
 const form = ref({
   email: '',
