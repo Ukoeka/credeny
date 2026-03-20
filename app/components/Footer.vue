@@ -2,73 +2,10 @@
   <footer>
 
     <!-- ── CTA Band ── -->
-    <section class="bg-[#f9f3ec] py-16 px-6 lg:px-10">
-      <div class="max-w-[1100px] mx-auto flex flex-col md:flex-row items-center justify-between gap-12">
-
-        <!-- Text side -->
-        <div class="text-center md:text-left">
-          <h2 class="text-[clamp(1.6rem,3vw,2.2rem)] font-extrabold text-[#1a1a2e] leading-tight tracking-tight mb-3">
-            Ready To Get Started?
-          </h2>
-          <p class="text-sm text-[#555] leading-relaxed mb-8">
-            Join Thousands Of Satisfied Users And Start<br class="hidden sm:block" />
-            Issuing Digital Credentials Today.
-          </p>
-          <div class="flex flex-wrap gap-3 justify-center md:justify-start">
-            <NuxtLink
-              to="/signup"
-              class="inline-block text-sm font-bold text-white no-underline px-6 py-2.5 bg-[#1a1a2e] border-2 border-[#1a1a2e] rounded-lg transition-all duration-200 hover:bg-[#2d2d4e] hover:-translate-y-px tracking-wide"
-            >
-              Sign Up
-            </NuxtLink>
-            <NuxtLink
-              to="/demo"
-              class="inline-block text-sm font-bold text-[#1a1a2e] no-underline px-6 py-2.5 bg-transparent border-2 border-[#1a1a2e] rounded-lg transition-all duration-200 hover:bg-[#1a1a2e] hover:text-white tracking-wide"
-            >
-              Request A Demo
-            </NuxtLink>
-          </div>
-        </div>
-
-        <!-- Visual: dots + avatar cluster + dots -->
-        <div class="flex flex-col items-center gap-5 flex-shrink-0" aria-hidden="true">
-          <!-- Top dot grid -->
-          <div class="grid grid-cols-6 gap-1.5">
-            <span
-              v-for="i in 12"
-              :key="'td'+i"
-              class="w-[5px] h-[5px] rounded-full bg-[#c8873a] opacity-40"
-            ></span>
-          </div>
-
-          <!-- Avatar cluster -->
-          <div class="flex items-center">
-            <div
-              v-for="(av, i) in avatars"
-              :key="i"
-              class="w-[52px] h-[52px] rounded-full border-[3px] border-[#f9f3ec] bg-[#1a1a2e] flex items-center justify-center overflow-hidden flex-shrink-0"
-              :class="i > 0 ? '-ml-3' : ''"
-              :style="`z-index: ${5 - i}`"
-            >
-              <img v-if="av.src" :src="av.src" :alt="'User ' + (i + 1)" class="w-full h-full object-cover" />
-              <span v-else class="text-xs font-bold text-white tracking-wide">{{ av.initials }}</span>
-            </div>
-          </div>
-
-          <!-- Bottom dot grid -->
-          <div class="grid grid-cols-4 gap-1.5">
-            <span
-              v-for="i in 12"
-              :key="'bd'+i"
-              class="w-[5px] h-[5px] rounded-full bg-[#c8873a] opacity-40"
-            ></span>
-          </div>
-        </div>
-      </div>
-    </section>
+ 
 
     <!-- ── Dark footer ── -->
-    <div class="bg-[#1a1a2e] px-6 lg:px-10 pt-10 pb-6">
+    <div class="bg-black px-6 lg:px-10 pt-10 pb-6">
       <div class="max-w-[1100px] mx-auto">
 
         <!-- Logo + social  |  Nav links -->
@@ -77,13 +14,7 @@
           <!-- Brand -->
           <div>
             <NuxtLink to="/" class="flex items-center gap-2 no-underline mb-5">
-              <svg width="32" height="32" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="18" cy="18" r="17" stroke="#fff" stroke-width="2"/>
-                <path d="M11 18C11 14.134 14.134 11 18 11C19.933 11 21.683 11.783 22.95 13.05" stroke="#c8873a" stroke-width="2.2" stroke-linecap="round"/>
-                <path d="M25 18C25 21.866 21.866 25 18 25C16.067 25 14.317 24.217 13.05 22.95" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/>
-                <circle cx="18" cy="18" r="3" fill="#c8873a"/>
-              </svg>
-              <span class="font-bold text-[0.95rem] tracking-[0.12em] text-white">CREDENY</span>
+              <img src="@/assets/images/logo/logo.png" alt="Credeny logo" class="h-6 w-auto">
             </NuxtLink>
 
             <!-- Social icons -->
@@ -153,13 +84,7 @@ const legalLinks = [
 ]
 
 // Replace src values with real paths e.g. '/images/avatar-1.jpg'
-const avatars = [
-  { src: '', initials: 'AM' },
-  { src: '', initials: 'BK' },
-  { src: '', initials: 'CL' },
-  { src: '', initials: 'DJ' },
-  { src: '', initials: 'EO' },
-]
+
 
 // SVG path inner HTML for each social icon
 const socials = [

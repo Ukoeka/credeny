@@ -52,7 +52,7 @@
           <div class="relative flex justify-center lg:justify-end hero-image-wrap">
             <!-- Blob background shape -->
             <div class="absolute  opacity-70 -z-0"></div>
-            <img src="@/assets/images/landing/hero.png" alt="">
+            <img src="@/assets/images/randoms/hero.png" alt="">
           
 
             <!-- Floating card decoration -->
@@ -72,7 +72,7 @@
       ═══════════════════════════════════════════ -->
       <section
         id="features"
-        class="relative bg-[#1a1a2e] text-white py-24 overflow-hidden"
+        class="relative bg-black text-white py-24 overflow-hidden"
       >
         <!-- Topographic pattern overlay -->
         <div class="absolute inset-0 opacity-[0.06] pointer-events-none"
@@ -147,7 +147,7 @@
           <!-- Right: app mockup placeholder -->
           <div class="relative">
             <!-- Browser chrome mockup -->
-            <img src="@/assets/images/landing/dashboard.png" alt="">
+            <img src="@/assets/images/randoms/dashboard.png" alt="">
           </div>
         </div>
       </section>
@@ -199,7 +199,7 @@
       <!-- ═══════════════════════════════════════════
            PRICING
       ═══════════════════════════════════════════ -->
-      <section id="pricing" class="bg-[#1a1a2e] text-white py-24">
+      <section id="pricing" class="bg-black text-white py-24">
         <div class="max-w-[1200px] mx-auto px-6 lg:px-10">
           <div class="text-center mb-14">
             <p class="text-[#c8873a] font-bold text-sm uppercase tracking-widest mb-3">Plans</p>
@@ -249,6 +249,44 @@
           </div>
         </div>
       </section>
+
+       <section class="bg-[#f9f3ec] py-16 px-6 lg:px-10">
+      <div class="max-w-[1100px] mx-auto flex flex-col md:flex-row items-center justify-between gap-12">
+
+        <!-- Text side -->
+        <div class="text-center md:text-left">
+          <h2 class="text-[clamp(1.6rem,3vw,2.2rem)] font-extrabold text-[#1a1a2e] leading-tight tracking-tight mb-3">
+            Ready To Get Started?
+          </h2>
+          <p class="text-sm text-[#555] leading-relaxed mb-8">
+            Join Thousands Of Satisfied Users And Start<br class="hidden sm:block" />
+            Issuing Digital Credentials Today.
+          </p>
+          <div class="flex flex-wrap gap-3 justify-center md:justify-start">
+            <NuxtLink
+              to="/signup"
+              class="inline-block text-sm font-bold text-white no-underline px-6 py-2.5 bg-[#1a1a2e] border-2 border-[#1a1a2e] rounded-lg transition-all duration-200 hover:bg-[#2d2d4e] hover:-translate-y-px tracking-wide"
+            >
+              Sign Up
+            </NuxtLink>
+            <NuxtLink
+              to="/demo"
+              class="inline-block text-sm font-bold text-[#1a1a2e] no-underline px-6 py-2.5 bg-transparent border-2 border-[#1a1a2e] rounded-lg transition-all duration-200 hover:bg-[#1a1a2e] hover:text-white tracking-wide"
+            >
+              Request A Demo
+            </NuxtLink>
+          </div>
+        </div>
+
+        <!-- Visual: dots + avatar cluster + dots -->
+        <div class="flex flex-col items-center gap-5 flex-shrink-0" aria-hidden="true">
+          <!-- Top dot grid -->
+          
+
+          <img src="@/assets/images/randoms/people.png" alt="">
+        </div>
+      </div>
+    </section>
   </SharedLayout>
 </template>
 

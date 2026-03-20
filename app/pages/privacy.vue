@@ -47,15 +47,15 @@
          INFORMATION WE COLLECT
     ═══════════════════════════════════════════ -->
     <section class="bg-black text-white justify-center flex w-full">
-      <div class="grid lg:grid-cols-2 min-h-[600px]">
+      <div class="grid w-full lg:grid-cols-2 min-h-[600px]">
 
         <!-- Left: text -->
-        <div class="flex items-center px-10 lg:px-20 py-16">
+        <div class="flex justify-center items-center px-10 lg:px-20 py-16">
           <div class="max-w-md">
-            <h2 class="text-3xl lg:text-5xl font-extrabold mb-6 tracking-tight">
+            <h2 class="text-4xl lg:text-5xl font-extrabold mb-6 tracking-tight">
               Information We Collect
             </h2>
-            <div class="space-y-4 text-white/75 text-sm leading-relaxed">
+            <div class="space-y-4 text-white/75  leading-relaxed">
               <p>
                 <span class="font-semibold text-white">Personal Information:</span>
                 When you create an account, we may collect information such as your name, email address, and contact details.
@@ -86,8 +86,8 @@
     <!-- ═══════════════════════════════════════════
          HOW WE USE THIS INFORMATION
     ═══════════════════════════════════════════ -->
-    <section class="bg-[#1a1a2e] text-white">
-      <div class="grid lg:grid-cols-2 min-h-[420px]">
+    <section class="bg-black text-white">
+      <div class="grid lg:grid-cols-2 min-h-[600px]">
 
         <!-- Left: image — replace src with your actual image -->
         <div class="relative min-h-[360px] lg:min-h-0">
@@ -99,12 +99,12 @@
         </div>
 
         <!-- Right: text -->
-        <div class="flex items-center px-10 lg:px-20 py-16">
+        <div class="flex items-center justify-center px-10 lg:px-20 py-16">
           <div class="max-w-md">
-            <h2 class="text-2xl lg:text-3xl font-extrabold mb-6 tracking-tight">
+            <h2 class="text-4xl lg:text-5xl font-extrabold mb-6 tracking-tight">
               How We Use This Information
             </h2>
-            <div class="space-y-4 text-white/75 text-sm leading-relaxed">
+            <div class="space-y-4 text-white/75  leading-relaxed">
               <p>
                 <span class="font-semibold text-white">Personal Information:</span>
                 When you create an account, we may collect information such as your name, email address, and contact details.
@@ -127,15 +127,15 @@
          DATA SECURITY
     ═══════════════════════════════════════════ -->
     <section class="bg-[#f5ede3]">
-      <div class="grid lg:grid-cols-2 min-h-[420px]">
+      <div class="grid lg:grid-cols-2 min-h-[600px]">
 
         <!-- Left: text -->
-        <div class="flex items-center px-10 lg:px-20 py-16">
+        <div class="flex items-center justify-center px-10 lg:px-20 py-16">
           <div class="max-w-md">
-            <h2 class="text-2xl lg:text-3xl font-extrabold text-[#1a1a2e] mb-6 tracking-tight">
+            <h2 class="text-4xl lg:text-5xl font-extrabold text-[#1a1a2e] mb-6 tracking-tight">
               Data Security
             </h2>
-            <div class="space-y-4 text-[#555] text-sm leading-relaxed">
+            <div class="space-y-4 text-[#555] leading-relaxed">
               <p>
                 <span class="font-semibold text-[#1a1a2e]">Personal Information:</span>
                 When you create an account, we may collect information such as your name, email address, and contact details.
@@ -167,7 +167,7 @@
          THIRD-PARTY SERVICES
     ═══════════════════════════════════════════ -->
     <section class="bg-[#f5ede3]">
-      <div class="grid lg:grid-cols-2 min-h-[380px]">
+      <div class="grid lg:grid-cols-2 min-h-[500px]">
 
         <!-- Left: image — replace src with your actual image -->
         <div class="relative min-h-[340px] lg:min-h-0">
@@ -179,12 +179,12 @@
         </div>
 
         <!-- Right: text -->
-        <div class="flex items-center px-10 lg:px-20 py-16 bg-white">
+        <div class="flex items-center justify-center px-10 lg:px-20 py-16 bg-white">
           <div class="max-w-md">
-            <h2 class="text-2xl lg:text-3xl font-extrabold text-[#1a1a2e] mb-6 tracking-tight">
+            <h2 class="text-4xl lg:text-5xl font-extrabold text-[#1a1a2e] mb-6 tracking-tight">
               Third-Party Services
             </h2>
-            <div class="space-y-4 text-[#555] text-sm leading-relaxed">
+            <div class="space-y-4 text-[#555]  leading-relaxed">
               <p>
                 <span class="font-semibold text-[#1a1a2e]">Personal Information:</span>
                 When you create an account, we may collect information such as your name, email address, and contact details.
@@ -194,7 +194,7 @@
                 We securely store and manage your digital credentials, including certificates, badges, and other achievements.
               </p>
               <p>
-                <span class="font-semibold text-white">Usage Data:</span>
+                <span class="font-semibold text-[#1a1a2e]">Usage Data:</span>
                 We gather information about how you interact with our site, such as your browsing activity and preferences.
               </p>
             </div>
@@ -206,11 +206,11 @@
     <!-- ═══════════════════════════════════════════
          CONTACT US
     ═══════════════════════════════════════════ -->
-    <section id="contact" class="bg-[#1a1a2e] text-white">
+    <section id="contact" class="bg-black text-white">
       <div class="grid lg:grid-cols-2 min-h-[420px]">
 
         <!-- Left: text -->
-        <div class="flex items-center px-10 lg:px-20 py-16">
+        <div class="flex justify-center items-center px-10 lg:px-20 py-16">
           <div class="max-w-sm">
             <p class="text-[#c8873a] font-bold text-sm uppercase tracking-widest mb-3">
               We're Always In Touch
@@ -228,27 +228,27 @@
         </div>
 
         <!-- Right: contact form -->
-        <div class="flex items-center px-10 lg:px-20 py-16">
+        <div class="flex justify-center items-center px-10 lg:px-20 py-16">
           <div class="w-full max-w-lg">
             <div class="grid grid-cols-2 gap-4 mb-4">
               <input
                 v-model="form.email"
                 type="email"
                 placeholder="Your Email"
-                class="col-span-1 bg-transparent border border-white/20 rounded-lg px-4 py-3 text-sm text-white placeholder-white/40 focus:outline-none focus:border-[#c8873a] transition-colors duration-200"
+                class="col-span-1 bg-white border border-white/20 rounded-lg px-4 py-3 text-sm text-black placeholder-black/40 focus:outline-none focus:border-[#c8873a] transition-colors duration-200"
               />
               <input
                 v-model="form.phone"
                 type="tel"
                 placeholder="Mobile Number"
-                class="col-span-1 bg-transparent border border-white/20 rounded-lg px-4 py-3 text-sm text-white placeholder-white/40 focus:outline-none focus:border-[#c8873a] transition-colors duration-200"
+                class="col-span-1 bg-white border border-white/20 rounded-lg px-4 py-3 text-sm text-black placeholder-black/40 focus:outline-none focus:border-[#c8873a] transition-colors duration-200"
               />
             </div>
             <textarea
               v-model="form.message"
               placeholder="Your Message"
               rows="5"
-              class="w-full bg-transparent border border-white/20 rounded-lg px-4 py-3 text-sm text-white placeholder-white/40 focus:outline-none focus:border-[#c8873a] transition-colors duration-200 resize-none mb-4"
+              class="w-full bg-white border border-white/20 rounded-lg px-4 py-3 text-sm text-black placeholder-black/40 focus:outline-none focus:border-[#c8873a] transition-colors duration-200 resize-none mb-4"
             ></textarea>
             <button
               @click="handleSubmit"
