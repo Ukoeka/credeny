@@ -11,10 +11,10 @@
           style="background-image: radial-gradient(circle, #1a1a2e 1px, transparent 1px); background-size: 30px 30px;">
         </div>
 
-        <div class="max-w-[1400px] mx-auto px-3 lg:px-10 w-full grid lg:grid-cols-2 gap-12 items-center py-20">
+        <div class="max-w-[1600px] mx-auto px-3 lg:px-10 w-full grid lg:grid-cols-2 gap-20 items-center py-20">
           <!-- Left-side -->
           <div class="hero-text">
-            <h1 class="text-[clamp(2.4rem,5vw,3.8rem)] font-extrabold leading-[1.1] tracking-tight text-[#1a1a2e] mb-6">
+            <h1 class="text-[clamp(4.2rem,9vw,5.3rem)] font-extrabold leading-[1.1] tracking-tight text-[#1a1a2e] mb-6">
               Showcase Your<br />
               Achievements And<br />
               <span class="text-[#c8873a]">Digital Credentials</span>
@@ -48,10 +48,7 @@
             </div>
           </div>
 
-          <!-- Right: hero image placeholder -->
-          <div class="relative flex justify-center lg:justify-end hero-image-wrap">
-            <!-- Blob background shape -->
-            <div class="absolute  opacity-70 -z-0"></div>
+          <div class="relative flex justify-end">
             <img src="@/assets/images/randoms/hero.png" alt="">
           
 
@@ -115,10 +112,10 @@
           <!-- Left: text -->
           <div>
             <p class="text-[#c8873a] font-bold text-sm uppercase tracking-widest mb-3">Platform</p>
-            <h2 class="text-3xl lg:text-4xl font-extrabold text-[#1a1a2e] mb-5 tracking-tight leading-tight">
+            <h2 class="text-5xl lg:text-7xl font-extrabold text-[#1a1a2e] mb-5 tracking-tight leading-tight">
               What We Offer
             </h2>
-            <p class="text-[#666] text-sm lg:text-base leading-relaxed mb-10">
+            <p class="text-[#666] lg:text-base leading-relaxed mb-10">
               Credeny is a digital credentialing platform that enables organizations to issue, manage,
               and verify credentials in a secure and transparent way. Our platform provides a solution for:
             </p>
@@ -137,17 +134,17 @@
                   </div>
                 </div>
                 <div>
-                  <h3 class="font-bold text-[#c8873a] text-base mb-1">{{ offer.title }}</h3>
-                  <p class="text-[#666] text-sm leading-relaxed">{{ offer.desc }}</p>
+                  <h3 class="font-bold text-[#c8873a] text-[30px]  mb-1">{{ offer.title }}</h3>
+                  <p class="text-[#666] text-[20px] leading-relaxed">{{ offer.desc }}</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- Right: app mockup placeholder -->
-          <div class="relative">
-            <!-- Browser chrome mockup -->
-            <img src="@/assets/images/randoms/dashboard.png" alt="">
+      
+          <div class="relative mr-0">
+            
+            <img class="w-ful" src="@/assets/images/randoms/dashboard.png" alt="">
           </div>
         </div>
       </section>

@@ -4,15 +4,15 @@
     :class="isScrolled ? 'shadow-[0_2px_24px_rgba(26,26,46,0.10)] backdrop-blur-md' : ''"
   >
     <!-- Main bar -->
-    <div class="mx-auto h-[68px] px-6 lg:px-10 flex items-center gap-6">
+    <div class="mx-auto h-[100px] px-6 lg:px-10 flex justify-between items-center gap-6">
 
       <!-- Logo -->
       <NuxtLink to="/" class="flex items-center gap-2 no-underline flex-shrink-0">
-        <img src="@/assets/images/logo/logo.png" alt="Credeny logo" class="h-6 w-auto">
+        <img src="@/assets/images/logo/logo.png" alt="Credeny logo" class="h-14 w-auto">
       </NuxtLink>
 
       <!-- Desktop Nav -->
-      <nav class="hidden md:flex items-center gap-2.5 ml-auto">
+      <nav class="hidden md:flex items-center gap-2.5">
         <NuxtLink
           v-for="item in navItems"
           :key="item.label"
@@ -70,14 +70,14 @@
         </NuxtLink>
         <div class="flex flex-col gap-2 mt-4 pt-4 border-t border-[#1a1a2e]/10">
           <NuxtLink
-            to="/login"
+            to="/user/auth/login"
             class="text-sm font-semibold text-[#1a1a2e] no-underline text-center px-4 py-2.5 border-[1.5px] border-[#1a1a2e] rounded-md transition-all duration-200 hover:bg-[#1a1a2e] hover:text-white"
             @click="mobileMenuOpen = false"
           >
             Login
           </NuxtLink>
           <NuxtLink
-            to="/signup"
+            to="/user/auth/signup"
             class="text-sm font-semibold text-white no-underline text-center px-4 py-2.5 bg-[#1a1a2e] rounded-md transition-all duration-200 hover:bg-[#2d2d4e]"
             @click="mobileMenuOpen = false"
           >
