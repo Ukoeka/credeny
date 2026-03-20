@@ -12,12 +12,12 @@
       </NuxtLink>
 
       <!-- Desktop Nav -->
-      <nav class="hidden md:flex items-center gap-0.5 ml-auto">
+      <nav class="hidden md:flex items-center gap-2.5 ml-auto">
         <NuxtLink
           v-for="item in navItems"
           :key="item.label"
           :to="item.href"
-          class="text-sm font-medium text-[#1a1a2e] no-underline px-3 py-1.5 rounded-md transition-all duration-200 hover:text-[#c8873a] hover:bg-[#c8873a]/10"
+          class=" font-medium text-[#1a1a2e] no-underline px-3 py-3 rounded-md transition-all duration-200 hover:text-[#c8873a] hover:bg-[#c8873a]/10"
           active-class="!text-[#c8873a] bg-[#c8873a]/10"
         >
           {{ item.label }}
@@ -97,10 +97,10 @@ const mobileMenuOpen = ref(false)
 
 const navItems = [
   { label: 'Home', href: '/' },
-  { label: 'Features', href: '/#features' },
-  { label: 'Pricing', href: '/#pricing' },
-  { label: 'Testimonials', href: '/#testimonials' },
-  { label: 'Contact', href: '/#contact' },
+  { label: 'Features', href: '/features' },
+  { label: 'Pricing', href: '/pricing' },
+  { label: 'Testimonials', href: '/testimonials' },
+  { label: 'Contact', href: '/contact' },
 ]
 
 const handleScroll = () => { isScrolled.value = window.scrollY > 20 }

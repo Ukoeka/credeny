@@ -292,6 +292,7 @@
 
 <script setup>
 import { h } from 'vue'
+import SharedLayout from '~/layouts/SharedLayout.vue'
 
 // ── Inline icon components (no external dep) ──
 const IconBadge = {
@@ -411,7 +412,6 @@ useHead({
 </script>
 
 <style>
-/* Global font applies since this is the page root */
 body {
   font-family: 'DM Sans', 'Segoe UI', sans-serif;
   -webkit-font-smoothing: antialiased;

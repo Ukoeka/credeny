@@ -1,9 +1,7 @@
 <template>
   <SharedLayout>
 
-    <!-- ═══════════════════════════════════════════
-         HERO BANNER
-    ═══════════════════════════════════════════ -->
+
     <section class="relative pt-[68px] min-h-[450px] flex items-center justify-center overflow-hidden">
       <!-- Background image — add your image here -->
       <img
@@ -49,10 +47,8 @@
       </div>
     </section>
 
-    <!-- ═══════════════════════════════════════════
-         FAQs
-    ═══════════════════════════════════════════ -->
-    <section class="bg-black text-white py-20">
+  
+    <section class="bg-black text-white py-20 border-b border-gray-300" >
       <div class="max-w-[1200px] mx-auto px-6 lg:px-10 grid lg:grid-cols-2  gap-16 ">
 
         <!-- Left: description -->
@@ -112,7 +108,7 @@
         </div>
 
       </div>
-      <hr class="mb-3 mt-5">
+      
     </section>
 
   </SharedLayout>

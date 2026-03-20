@@ -268,6 +268,7 @@
 <script setup>
 import { ref } from 'vue'
 import heroBg from '@/assets/images/randoms/coffee.jpg'
+import SharedLayout from '~/layouts/SharedLayout.vue'
 
 const form = ref({
   email: '',
@@ -276,7 +277,6 @@ const form = ref({
 })
 
 const handleSubmit = () => {
-  // Handle form submission
   console.log('Form submitted:', form.value)
 }
 
