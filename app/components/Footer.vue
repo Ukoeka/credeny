@@ -6,7 +6,7 @@
 
     <!-- ── Dark footer ── -->
     <div class="bg-black px-6 lg:px-10 pt-10 pb-6">
-      <div class="max-w-[1100px] mx-auto">
+      <div class="max-w-[1600px] mx-auto">
 
         <!-- Logo + social  |  Nav links -->
         <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-8 pb-8 border-b border-white/10 flex-wrap">
@@ -14,7 +14,7 @@
           <!-- Brand -->
           <div>
             <NuxtLink to="/" class="flex items-center gap-2 no-underline mb-5">
-              <img src="@/assets/images/logo/logo.png" alt="Credeny logo" class="h-6 w-auto">
+              <img src="@/assets/images/logo/logo.png" alt="Credeny logo" class="h-12 w-auto">
             </NuxtLink>
 
             <!-- Social icons -->
@@ -37,7 +37,7 @@
               v-for="link in footerLinks"
               :key="link.label"
               :to="link.href"
-              class="text-sm font-medium text-white/55 no-underline transition-colors duration-200 hover:text-white"
+              class=" font-medium text-white/55 no-underline transition-colors duration-200 hover:text-white"
             >
               {{ link.label }}
             </NuxtLink>
@@ -46,13 +46,13 @@
 
         <!-- Bottom bar -->
         <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 pt-5 flex-wrap">
-          <span class="text-xs text-white/35">© {{ year }} Credeny. All rights reserved.</span>
+          <span class="text-sm text-white/35">© {{ year }} Credeny. All rights reserved.</span>
           <div class="flex items-center gap-5">
             <NuxtLink
               v-for="leg in legalLinks"
               :key="leg.label"
               :to="leg.href"
-              class="text-xs text-white/45 no-underline transition-colors duration-200 hover:text-white"
+              class="text-sm text-white/45 no-underline transition-colors duration-200 hover:text-white"
             >
               {{ leg.label }}
             </NuxtLink>

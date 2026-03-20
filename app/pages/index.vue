@@ -107,16 +107,17 @@
            WHAT WE OFFER
       ═══════════════════════════════════════════ -->
       <section class="bg-[#faf5ee] py-24">
-        <div class="pl-20 lg:pl-20 pr-0 lg:pr-0 grid lg:grid-cols-2 gap-16 items-center">
+        <div class="pl-20 lg:pl-20  grid lg:grid-cols-2 gap-16 items-center">
 
           <!-- Left: text -->
           <div>
             <p class="text-[#c8873a] font-bold text-sm uppercase tracking-widest mb-3">Platform</p>
-            <h2 class="text-5xl lg:text-7xl font-extrabold text-[#1a1a2e] mb-5 tracking-tight leading-tight">
+            <h2 class="text-4xl lg:text-5xl font-extrabold text-[#1a1a2e] mb-5 tracking-tight leading-tight">
               What We Offer
             </h2>
-            <p class="text-[#666] lg:text-base leading-relaxed mb-10">
-              Credeny is a digital credentialing platform that enables organizations to issue, manage,
+            <p class="text-[#666] text-[20px] leading-relaxed mb-10">
+              Credeny is a digital credentialing platform that enables organizations to issue,
+               manage,
               and verify credentials in a secure and transparent way. Our platform provides a solution for:
             </p>
 
@@ -142,9 +143,9 @@
           </div>
 
       
-          <div class="relative mr-0">
+          <div class="relative h-screen mr-0 flex justify-end">
             
-            <img class="w-ful" src="@/assets/images/randoms/dashboard.png" alt="">
+            <img class="w-full" src="@/assets/images/randoms/dashboard.png" alt="">
           </div>
         </div>
       </section>

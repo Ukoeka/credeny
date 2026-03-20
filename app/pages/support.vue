@@ -2,7 +2,7 @@
   <SharedLayout>
 
 
-    <section class="relative pt-[68px] min-h-[450px] flex items-center justify-center overflow-hidden">
+    <section class="relative pt-[100px] h-[70vh] flex items-center justify-center overflow-hidden">
       <!-- Background image — add your image here -->
       <img
         src="@/assets/images/backgrounds/support-bg.png"
@@ -49,7 +49,7 @@
 
   
     <section class="bg-black text-white py-20 border-b border-gray-300" >
-      <div class="max-w-[1200px] mx-auto px-6 lg:px-10 grid lg:grid-cols-2  gap-16 ">
+      <div class="max-w-[1600px] mx-auto px-6 lg:px-10 grid lg:grid-cols-2  gap-16 ">
 
         <!-- Left: description -->
         <div class="">
@@ -116,6 +116,7 @@
 
 <script setup>
 import { ref } from 'vue'
+import SharedLayout from '~/layouts/SharedLayout.vue'
 
 const searchQuery = ref('')
 const openFaq = ref(null)
