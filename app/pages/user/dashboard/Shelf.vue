@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="relative w-full rounded-2xl overflow-hidden mb-8 h-[130px] flex items-center justify-center">
+    <div class="relative w-full rounded-2xl overflow-hidden P-12 mb-8 h-[250px] flex items-center justify-center">
       <img
         src="@/assets/images/backgrounds/dashboard-banner.png"
         alt=""
@@ -14,22 +14,21 @@
     </div>
 
     <!-- ── EMPTY STATE ── -->
-    <div v-if="badges.length === 0" class="flex flex-col items-center justify-center py-24">
-      <!-- Spider web illustration — replace with your image -->
+    <div v-if="badges.length === 0" class="flex flex-col items-center justify-center px-20 py-24">
       <img
         src="@/assets/images/randoms/web.png"
         alt="Empty shelf"
-        class="w-52 h-52 object-contain opacity-60 mb-6"
+        class="w-full h-full object-contain opacity-60 mb-6"
       />
       <p class="text-lg font-semibold text-[#c8b89a]">Shelf so Empty</p>
     </div>
 
     <!-- ── POPULATED STATE ── -->
-    <div v-else class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+    <div v-else class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-10">
       <div
         v-for="badge in badges"
         :key="badge.id"
-        class="bg-white rounded-2xl p-4 border border-[#f0e6d8] hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 cursor-pointer group"
+        class="bg-white rounded-2xl p-10 border border-[#f0e6d8] hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 cursor-pointer group"
         @click="navigateTo(`/dashboard/badge/${badge.id}`)"
       >
         <!-- Badge image -->
@@ -37,7 +36,7 @@
           <img
             :src="badge.image"
             :alt="badge.title"
-            class="w-24 h-24 rounded-full object-cover border-4 border-[#f5ede3] group-hover:border-[#c8873a] transition-colors duration-200"
+            class="w-full h-auto rounded-full object-cover border-4 border-[#f5ede3] group-hover:border-[#c8873a] transition-colors duration-200"
           />
         </div>
 
