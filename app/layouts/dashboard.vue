@@ -96,6 +96,7 @@ const searchQuery = ref('')
 
 const navItems = [
   { label: 'Shelf',      href: '/user/dashboard/shelf',      icon: shelfIcon,      iconBg: 'bg-[#e8ddd0]' },
+    { label: 'Collection',    href: '/user/dashboard/collections',    icon: accountIcon,    iconBg: 'bg-[#e8ddd0]' },
     { label: 'Account',    href: '/dashboard/account',    icon: accountIcon,    iconBg: 'bg-[#e8ddd0]' },
   ]
 
