@@ -22,9 +22,10 @@
             class="w-9 h-9 rounded-full flex items-center justify-center transition-colors duration-200 group-[.router-link-active]:bg-[#c8873a]"
             :class="item.iconBg"
           >
-            <component :is="item.icon" class="w-5 h-5 text-[#1a1a2e] group-[.router-link-active]:text-white" />
+            <img :src="item.icon" class="w-5 h-5" />
           </div>
-          <span class=" font-semibold text-[#1a1a2e] group-[.router-link-active]:text-white leading-none">
+
+          <span class="font-semibold text-[#1a1a2e] group-[.router-link-active]:text-white leading-none">
             {{ item.label }}
           </span>
         </NuxtLink>
@@ -86,8 +87,8 @@
 
 <script setup>
 import { ref, h } from 'vue'
-import shelfIcon from '/assets/images/icons/shelf.png'
-import accountIcon from '/assets/images/icons/user.png'
+import shelfIcon from '@/assets/images/icons/shelf.png'
+import accountIcon from '@/assets/images/icons/user.png'
 
 const searchQuery = ref('')
 
