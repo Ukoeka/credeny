@@ -19,7 +19,7 @@
           <img
             :src="badge.image"
             :alt="badge.title"
-            class="w-28 h-28 rounded-full object-cover border-4 border-[#f5ede3]"
+            class="w-100 h-100 rounded-full object-cover border-4 border-[#f5ede3]"
           />
         </div>
 
@@ -120,7 +120,7 @@ const badge = ref({
   title: 'Badge of Excellence',
   awardedTo: 'Favoudoh (Favoudoh@gmail.com)',
   issuedDate: '4th April 2024',
-  image: '@/assets/images/badges/badge-detail.png',
+  image: '/images/randoms/badge.png',
   issuer: 'Robbert Greed Foundation',
   issuerLogo: '@/assets/images/issuers/issuer-logo.png',
   description: `Lorem ipsum dolor sit amet consectetur. Magnis faucibus quis facilisis mattis sit urna felis scelerisque. Ullamcorper at interdum tortor sed sem neque. Facilisi nisl sem volutpat diam ultricies ac. Duis condimentum arcu diam non velit.
