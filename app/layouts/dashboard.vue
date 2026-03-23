@@ -16,7 +16,7 @@
           :key="item.label"
           :to="item.href"
           class="flex flex-col items-center gap-1 w-full py-2.5 px-1 rounded-xl transition-all duration-200 group"
-          active-class="!bg-[#1a1a2e]"
+          active-class="!bg-[#90D0FF]"
         >
           <div
             class="w-9 h-9 rounded-full flex items-center justify-center transition-colors duration-200 group-[.router-link-active]:bg-[#c8873a]"
@@ -94,7 +94,7 @@ const searchQuery = ref('')
 // ── Sidebar icons ──
 
 const navItems = [
-  { label: 'Shelf',      href: '/dashboard/shelf',      icon: shelfIcon,      iconBg: 'bg-[#e8ddd0]' },
+  { label: 'Shelf',      href: '/user/dashboard/shelf',      icon: shelfIcon,      iconBg: 'bg-[#e8ddd0]' },
     { label: 'Account',    href: '/dashboard/account',    icon: accountIcon,    iconBg: 'bg-[#e8ddd0]' },
   ]
 

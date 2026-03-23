@@ -29,7 +29,7 @@
         v-for="badge in badges"
         :key="badge.id"
         class="bg-white rounded-2xl p-10 border border-[#f0e6d8] hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 cursor-pointer group"
-        @click="navigateTo(`/dashboard/badge/${badge.id}`)"
+        @click="navigateTo(`/user/dashboard/badge/${badge.id}`)"
       >
         <!-- Badge image -->
         <div class="flex justify-center mb-3">
