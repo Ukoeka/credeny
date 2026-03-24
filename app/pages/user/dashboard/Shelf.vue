@@ -8,8 +8,8 @@
       />
       <div class="absolute inset-0 bg-black/20"></div>
       <div class="relative z-10 text-center">
-        <h1 class="text-2xl lg:text-3xl font-extrabold text-[#1a1a2e] tracking-tight">Display Shelf</h1>
-        <p class="text-sm text-[#333] mt-1">All your badges and achievements in one place</p>
+        <h1 class="text-4xl lg:text-5xl font-extrabold text-[#1a1a2e] tracking-tight">Display Shelf</h1>
+        <p class=" text-[#333] text-[18px] mt-1">All your badges and achievements in one place</p>
       </div>
     </div>
 
@@ -43,7 +43,7 @@
         <!-- Info -->
         <div class="flex items-start justify-between gap-1">
           <div class="min-w-0">
-            <h3 class="font-bold text-sm text-[#1a1a2e] truncate">{{ badge.title }}</h3>
+            <h3 class="font-bold text-[#1a1a2e] truncate">{{ badge.title }}</h3>
             <p class="text-xs text-[#888] leading-relaxed mt-0.5 line-clamp-2">{{ badge.description }}</p>
             <p class="text-xs text-[#aaa] mt-2">{{ badge.date }}</p>
           </div>

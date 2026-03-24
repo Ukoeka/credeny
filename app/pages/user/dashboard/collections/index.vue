@@ -11,15 +11,15 @@
 
       <!-- Banner action buttons top-right -->
       <div class="absolute top-4 right-4 z-20 flex items-center gap-2">
-        <button
-          @click="showCreateModal = true"
-          class="text-xs font-semibold text-[#1a1a2e] bg-white/90 hover:bg-white px-3 py-1.5 rounded-lg shadow transition-all duration-200 backdrop-blur-sm"
+        <NuxtLink
+          to="/user/dashboard/collections/createcollection"
+          class="text-xs font-semibold text-[#1a1a2e] bg-white/90 hover:bg-white px-3 py-3 rounded-lg shadow transition-all duration-200 backdrop-blur-sm"
         >
           Create Collection
-        </button>
+        </NuxtLink>
         <button
           @click="showEditModal = true"
-          class="text-xs font-semibold text-[#1a1a2e] bg-white/90 hover:bg-white px-3 py-1.5 rounded-lg shadow transition-all duration-200 backdrop-blur-sm"
+          class="text-xs font-semibold text-[#1a1a2e] bg-white/90 hover:bg-white px-3 py-3 rounded-lg shadow transition-all duration-200 backdrop-blur-sm"
         >
           Edit Collection
         </button>

@@ -111,6 +111,7 @@
 
 <script setup>
 definePageMeta({ layout: 'dashboard' })
+import issuerimg from '@/assets/images/icons/avatar.png'
 
 const route = useRoute()
 
@@ -122,7 +123,7 @@ const badge = ref({
   issuedDate: '4th April 2024',
   image: '/images/randoms/badge.png',
   issuer: 'Robbert Greed Foundation',
-  issuerLogo: 'images/icons/user.png',
+  issuerLogo: issuerimg,
   description: `Lorem ipsum dolor sit amet consectetur. Magnis faucibus quis facilisis mattis sit urna felis scelerisque. Ullamcorper at interdum tortor sed sem neque. Facilisi nisl sem volutpat diam ultricies ac. Duis condimentum arcu diam non velit.
 
 Vitae est eleifend molestie mi eget. Odio quis amet vel magna quis fringilla faucibus. Leo id tellus molestie id. Facilisis sit condimentum massa sapien. Scelerisque urna placerat in ipsum mi. Morbi non sit aliquet suspendisse enim. Diam nibh vitae ipsum tortor tellus in non enim. Velit tincidunt tortor aenean erat luctus quis dignissim id. In quis ultrices enim habitant nunc ultrices sed. Maecenas augue sed donec vulputate. Tristique urna egestas ornare id.`,
