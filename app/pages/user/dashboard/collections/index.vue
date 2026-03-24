@@ -46,7 +46,7 @@
       <NuxtLink
         v-for="collection in collections"
         :key="collection.id"
-        :to="`/user/dashboard/collection/${collection.id}`"
+        :to="`/user/dashboard/collections/collection-view`"
         class="bg-white rounded-2xl p-4 border border-[#f0e6d8] hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 cursor-pointer group block"
       >
         <!-- 3x3 badge thumbnail grid -->

@@ -1,15 +1,32 @@
 <template>
   <div>
-    <div class="relative w-full rounded-2xl overflow-hidden P-12 mb-8 h-[250px] flex items-center justify-center">
+    <div class="relative w-full rounded-2xl overflow-hidden mb-8 h-[250px] flex items-center justify-center">
       <img
         src="@/assets/images/backgrounds/dashboard-banner.png"
         alt=""
         class="absolute inset-0 w-full h-full object-cover"
       />
       <div class="absolute inset-0 bg-black/20"></div>
+
+      <!-- Banner action buttons top-right -->
+      <div class="absolute top-4 right-4 z-20 flex items-center gap-2">
+        <NuxtLink
+          to="/user/dashboard/collections/createcollection"
+          class="text-xs font-semibold text-[#1a1a2e] bg-white/90 hover:bg-white px-3 py-3 rounded-lg shadow transition-all duration-200 backdrop-blur-sm"
+        >
+          Create Collection
+        </NuxtLink>
+        <button
+          @click="showEditModal = true"
+          class="text-xs font-semibold text-[#1a1a2e] bg-white/90 hover:bg-white px-3 py-3 rounded-lg shadow transition-all duration-200 backdrop-blur-sm"
+        >
+          Edit Collection
+        </button>
+      </div>
+
       <div class="relative z-10 text-center">
-        <h1 class="text-4xl lg:text-5xl font-extrabold text-[#1a1a2e] tracking-tight">Work Badges</h1>
-        <p class=" text-[#333] text-[18px] mt-1">All your badges and achievements in one place</p>
+        <h1 class="text-4xl lg:text-5xl font-extrabold text-[#1a1a2e] tracking-tight">Badge Collections</h1>
+        <p class=" text-[#333] mt-1">Organize your badges for easy identification</p>
       </div>
     </div>
 
