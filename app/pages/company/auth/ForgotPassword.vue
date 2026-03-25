@@ -59,7 +59,7 @@
 
           <!-- Back to Login -->
           <NuxtLink
-            to="/user/auth/login"
+            to="/company/auth/login"
             class="w-full flex items-center justify-center font-semibold text-sm text-[#1a1a2e] py-3.5 sm:py-4 rounded-xl border border-[#1a1a2e]/20 hover:bg-[#1a1a2e]/5 transition-all duration-200"
           >
             Back To Login

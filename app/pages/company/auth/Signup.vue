@@ -130,7 +130,7 @@
         <p class="text-center text-sm text-[#888] mt-6">
           Have an account?
           <NuxtLink
-            to="/user/auth/login"
+            to="/company/auth/login"
             class="font-bold text-[#1a1a2e] hover:text-[#c8873a] transition-colors duration-200 ml-1"
           >
             Sign In

@@ -45,7 +45,7 @@
             <div class="flex items-center justify-between">
               <label class="text-xs font-semibold text-[#1a1a2e]">Password</label>
               <NuxtLink
-                to="/user/auth/forgotpassword"
+                to="/company/auth/forgotpassword"
                 class="text-xs text-[#c8873a] font-medium hover:underline"
               >
                 Forgot password?
@@ -111,7 +111,7 @@
         <p class="text-center text-sm text-[#888] mt-6">
           Don't have an account?
           <NuxtLink
-            to="/user/auth/signup"
+            to="/company/auth/signup"
             class="font-bold text-[#1a1a2e] hover:text-[#c8873a] transition-colors duration-200 ml-1"
           >
             Sign Up
