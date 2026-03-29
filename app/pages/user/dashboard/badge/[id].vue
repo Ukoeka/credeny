@@ -10,7 +10,7 @@
       </svg>
     </button>
 
-    <div class="bg-white rounded-2xl border border-[#FFFAEE] p-8">
+    <div class="bg-[#FFF7EE] rounded-2xl border border-[#FFFAEE] p-8">
 
       <!-- ── Header: badge image + title + actions ── -->
       <div class="flex flex-col sm:flex-row gap-6 mb-8">

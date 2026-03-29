@@ -50,7 +50,7 @@
       <NuxtLink
         v-for="badge in badges"
         :key="badge.id"
-        class="bg-white rounded-2xl p-4 border border-[#f0e6d8] hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 cursor-pointer group block"
+        class="bg-[#FFF7EE] rounded-2xl p-4 border border-[#f0e6d8] hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 cursor-pointer group block"
         :to="`/issuer/dashboard/badges/${badge.id}`"
       >
         <!-- Badge image -->

@@ -1,8 +1,8 @@
 <template>
-  <div class="flex min-h-screen bg-[#faf5ee] font-sans">
+  <div class="flex min-h-screen bg-white font-sans">
 
     <!-- ── Sidebar ── -->
-    <aside class="fixed top-0 left-0 h-full w-[120px] bg-[#f5ede3] border-r border-[#e8ddd0] flex flex-col items-center py-5 gap-6 z-40">
+    <aside class="fixed top-0 left-0 h-full w-[150px] bg-[#f5ede3] border-r border-[#e8ddd0] flex flex-col items-center py-5 gap-6 z-40">
 
       <!-- Logo -->
       <NuxtLink to="/" class="flex flex-col items-center gap-1 mb-2">
@@ -45,10 +45,10 @@
     </aside>
 
     <!-- ── Main area ── -->
-    <div class="flex-1 flex flex-col ml-[120px]">
+    <div class="flex-1 flex flex-col ml-[150px]">
 
       <!-- Topbar -->
-      <header class="sticky top-0 z-30 bg-[#faf5ee] border-b border-[#e8ddd0] h-[100px] flex items-center px-6 gap-4">
+      <header class="sticky top-0 z-30 bg-white border-b border-[#e8ddd0] h-[100px] flex items-center px-6 gap-4">
         <div class="flex items-center gap-2 bg-white border border-[#e8ddd0] rounded-lg px-3.5 py-2 w-full max-w-xs">
           <svg class="w-4 h-4 text-[#bbb] flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.35-4.35M17 11A6 6 0 115 11a6 6 0 0112 0z"/>
@@ -72,7 +72,7 @@
       </header>
 
       <!-- Page content -->
-      <main class="flex-1 p-6">
+      <main class="flex-1 p-20">
         <slot />
       </main>
     </div>

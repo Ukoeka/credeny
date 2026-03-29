@@ -1,5 +1,5 @@
 <template>
-  <div class="flex min-h-screen bg-[#faf5ee] font-sans">
+  <div class="flex min-h-screen bg-white font-sans">
 
     <!-- ── Sidebar ── -->
     <aside class="fixed top-0 left-0 h-full w-[150px] bg-[#f5ede3] border-r border-[#e8ddd0] flex flex-col items-center py-10 gap-6 z-40">
@@ -49,7 +49,7 @@
     <div class="flex-1 flex flex-col ml-[200px]">
 
       <!-- Topbar -->
-      <header class="sticky top-0 z-30 bg-[#faf5ee] border-b border-[#e8ddd0] h-[100px] flex items-center px-20 gap-4">
+      <header class="sticky top-0 z-30 bg-white border-b border-[#e8ddd0] h-[100px] flex items-center px-20 gap-4">
         <!-- Search -->
         <div class="flex items-center gap-2 bg-white border border-[#e8ddd0] rounded-lg px-3.5 py-2 w-full max-w-xs">
           <svg class="w-4 h-4 text-[#bbb] flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
