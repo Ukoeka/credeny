@@ -4,7 +4,7 @@
     <!-- ── Top bar ── -->
     <header class="bg-[#f5ede3] border-b border-[#e8ddd0] px-6 py-3 flex items-center justify-between">
       <NuxtLink to="/" class="flex items-center gap-2 no-underline">
-        <img src="@/assets/images/logo/logo.png" alt="Credeny" class="w-20 h-12" />
+        <img src="@/assets/images/logo/logo.png" alt="Credeny" class="w-100 h-12" />
       </NuxtLink>
       <NuxtLink
         to="/login"
