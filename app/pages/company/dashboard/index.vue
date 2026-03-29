@@ -46,7 +46,7 @@
     </div>
 
     <!-- ── POPULATED STATE ── -->
-    <div v-else class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+    <div v-else class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-10">
       <NuxtLink
         v-for="badge in badges"
         :key="badge.id"
@@ -58,7 +58,7 @@
           <img
             :src="badge.image"
             :alt="badge.title"
-            class="w-24 h-24 rounded-full object-cover border-4 border-[#f5ede3] group-hover:border-[#c8873a] transition-colors duration-200"
+            class="w-full rounded-full object-cover border-4 border-[#f5ede3] group-hover:border-[#c8873a] transition-colors duration-200"
           />
         </div>
 

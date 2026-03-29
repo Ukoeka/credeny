@@ -19,10 +19,10 @@
           active-class="!bg-[#90D0FF]"
         >
           <div
-            class="w-9 h-9 rounded-full flex items-center justify-center transition-colors duration-200 group-[.router-link-active]:bg-[#c8873a]"
+            class="w-12 h-12 rounded-full flex items-center justify-center transition-colors duration-200 group-[.router-link-active]:bg-[#c8873a]"
             :class="item.iconBg"
           >
-            <img :src="item.icon" class="w-5 h-5" />
+            <img :src="item.icon" class="w-full h-full" />
           </div>
 
           <span class="font-semibold text-[#1a1a2e] group-[.router-link-active]:text-white leading-none">
