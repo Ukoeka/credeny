@@ -22,7 +22,7 @@
         <img
           :src="org.logo"
           :alt="org.name"
-          class="w-24 h-24 rounded-full object-cover border-4 border-white shadow-md"
+          class="w-100 h-100 rounded-full object-cover border-4 border-white shadow-md"
         />
       </div>
 
@@ -59,20 +59,20 @@
       </h1>
 
       <!-- Description -->
-      <p class="text-sm text-[#555] text-center leading-relaxed mb-8 max-w-lg mx-auto">
+      <p class="text-[#555] text-center leading-relaxed w-[80%] mx-auto mb-8 ">
         {{ org.description }}
       </p>
 
       <!-- Contact address -->
-      <div class="flex items-center justify-center mb-12">
-        <div class="flex items-center gap-4 bg-white border border-[#e8ddd0] rounded-xl px-6 py-3 shadow-sm">
-          <span class="text-sm font-bold text-[#1a1a2e] whitespace-nowrap">Contact Address :</span>
-          <span class="text-sm text-[#555]">{{ org.contactEmail }}</span>
+      <div class="flex items-center justify-center mb-10">
+        <div class="flex items-center gap-4 bg-white border border-dashed border-[#e8ddd0] rounded-xl px-6 py-5 shadow-lg">
+          <span class="font-bold text-lg text-[#1a1a2e] whitespace-nowrap">Contact Address :</span>
+          <span class="text-lg text-[#555]">{{ org.contactEmail }}</span>
         </div>
       </div>
 
       <!-- Badges banner -->
-      <div class="relative w-full rounded-2xl overflow-hidden mb-8 h-[140px] flex items-center justify-center">
+      <div class="relative w-[80%] mx-auto rounded-2xl overflow-hidden mb-10 h-[250px] flex items-center justify-center">
         <img
           src="@/assets/images/backgrounds/dashboard-banner.png"
           alt=""
@@ -80,26 +80,26 @@
         />
         <div class="absolute inset-0 bg-black/15"></div>
         <div class="relative z-10 text-center">
-          <h2 class="text-3xl font-extrabold text-[#1a1a2e] tracking-tight">Badges</h2>
-          <p class="text-sm text-[#333] mt-1">All badges Created by this organization</p>
+          <h2 class="text-4xl font-extrabold text-[#1a1a2e] tracking-tight">Badges</h2>
+          <p class="text-[#333] mt-1">All badges Created by this organization</p>
         </div>
       </div>
 
       <!-- Badges grid -->
-      <div class="bg-white rounded-2xl border border-[#f0e6d8] p-6">
-        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+      <div class="bg-white rounded-2xl mt-8 w-[80%] mx-auto border-dashed border border-[#f0e6d8] p-20">
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-10">
           <NuxtLink
             v-for="badge in badges"
             :key="badge.id"
             :to="`/badge/${badge.id}`"
-            class="rounded-2xl p-3 border border-[#f0e6d8] hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 cursor-pointer group block"
+            class="rounded-2xl px-3 py-5 border bg-[#FFF7EE] border-[#f0e6d8] hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 cursor-pointer group block"
           >
             <!-- Badge image -->
-            <div class="flex justify-center mb-3">
+            <div class="flex justify-center mb-3 ">
               <img
                 :src="badge.image"
                 :alt="badge.title"
-                class="w-20 h-20 rounded-full object-cover border-4 border-[#f5ede3] group-hover:border-[#c8873a] transition-colors duration-200"
+                class=" rounded-full object-cover border-4 border-[#f5ede3]  group-hover:border-[#c8873a] transition-colors duration-200"
               />
             </div>
             <!-- Info -->
@@ -150,7 +150,7 @@ definePageMeta({ layout: false })
 
 const year = new Date().getFullYear()
 
-// Replace with real API call using route.params.id
+// to be replaced using route.params.id
 // const route = useRoute()
 // const { data: org } = await useFetch(`/api/organizations/${route.params.id}`)
 
@@ -158,7 +158,7 @@ const org = ref({
   name: 'Major Corporation',
   logo: companyLogo,
   description: 'Potter ipsum wand elf parchment wingardium. In yer locomotor glasses holyhead good glory points. Kedavra prophet headmaster broomstick charm. Knut bezoar leviosa yer gillwater portrait bat it good frisbees. Turban veela and yer crookshanks. Firs\' eye splinched order great mellows cake. Grindlewald die tap-dancing owl plums cakes. Together sinistra he mischief stand mcgonagall witch. Hsorcerer\'s patronus gamp\'s sopophorous patronum feast fanged. Scabbers gillywater glass owl jinxes roaring. He doe other sorcerer\'s thieves clean law.',
-  contactEmail: 'MatorCorps@gmail.com',
+  contactEmail: 'MajorCorps@gmail.com',
 
 })
 
