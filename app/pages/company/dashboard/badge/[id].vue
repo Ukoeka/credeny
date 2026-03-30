@@ -30,8 +30,8 @@
               <h1 class="text-xl font-extrabold text-[#1a1a2e] tracking-tight mb-1">
                 {{ badge.title }}
               </h1>
-              <p class="text-sm text-[#888]">Awarded to <span class="font-medium text-[#555]">{{ badge.awardedTo }}</span></p>
-              <p class="text-sm text-[#888]">Issued on <span class="font-medium text-[#555]">{{ badge.issuedDate }}</span></p>
+              <p class=" text-[#888]">Awarded to <span class="font-medium text-[#555]">{{ badge.awardedTo }}</span></p>
+              <p class=" text-[#888]">Issued on <span class="font-medium text-[#555]">{{ badge.issuedDate }}</span></p>
             </div>
 
             <!-- Action buttons -->
@@ -63,24 +63,24 @@
       </div>
 
       <!-- ── Description ── -->
-      <p class="text-sm text-[#555] leading-relaxed mb-8">
+      <p class=" text-[#555] leading-relaxed mb-8">
         {{ badge.description }}
       </p>
 
       <!-- ── Issuer ── -->
       <div class="flex items-center gap-3 py-4 border-t border-b border-[#f0e6d8] mb-8">
-        <span class="text-sm font-semibold text-[#1a1a2e]">Issuer :</span>
+        <span class=" font-semibold text-[#1a1a2e]">Issuer :</span>
         <img
           :src="badge.issuerLogo"
           alt=""
           class="w-6 h-6 rounded-full object-cover"
         />
-        <span class="text-sm text-[#555]">{{ badge.issuer }}</span>
+        <span class="text-[#555]">{{ badge.issuer }}</span>
       </div>
 
       <!-- ── Earning Criteria ── -->
       <div class="mb-8">
-        <h2 class="text-sm font-extrabold text-[#1a1a2e] uppercase tracking-wider mb-4">
+        <h2 class=" font-extrabold text-[#1a1a2e] uppercase tracking-wider mb-4">
           Earning Criteria
         </h2>
         <ul class="space-y-2">
@@ -97,10 +97,10 @@
 
       <!-- ── Proof of Criteria Completion ── -->
       <div>
-        <h2 class="text-sm font-extrabold text-[#1a1a2e] mb-3">
+        <h2 class="font-extrabold text-[#1a1a2e] mb-3">
           Proof of Criteria Completion
         </h2>
-        <p class="text-sm text-[#555] leading-relaxed">
+        <p class="text-[#555] leading-relaxed">
           {{ badge.proof }}
         </p>
       </div>

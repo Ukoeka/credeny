@@ -12,7 +12,7 @@
 
       <!-- Create Badge button top-right -->
       <NuxtLink
-        to="/issuer/dashboard/badges/create"
+        to="/company/dashboard/badge/create"
         class="absolute top-4 right-4 z-20 flex items-center gap-2 text-xs font-semibold text-[#1a1a2e] bg-white/90 hover:bg-white px-3 py-2 rounded-lg shadow transition-all duration-200 backdrop-blur-sm"
       >
         Create Badge
@@ -38,7 +38,7 @@
       />
       <p class="text-lg font-semibold text-[#c8b89a]">No Badges Yet</p>
       <NuxtLink
-        to="/issuer/dashboard/badges/create"
+        to="/company/dashboard/badge/create"
         class="mt-6 inline-block text-sm font-bold text-white bg-[#1a1a2e] hover:bg-[#2d2d4e] px-6 py-3 rounded-xl transition-all duration-200 hover:-translate-y-px"
       >
         Create your first Badge

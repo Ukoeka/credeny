@@ -90,10 +90,10 @@ const searchQuery = ref('')
 
 // ── Sidebar icons ──
 const navItems = [
-  { label: 'Badges',   href: '/issuer/dashboard/badges',   icon: IconBadge   },
-  { label: 'Awardees', href: '/issuer/dashboard/awardees', icon: IconAwardee },
-  { label: 'Groups',   href: '/issuer/dashboard/groups',   icon: IconGroup   },
-  { label: 'Account',  href: '/issuer/dashboard/account',  icon: IconAccount },
+  { label: 'Badges',   href: '/company/dashboard/badge',   icon: IconBadge   },
+  { label: 'Awardees', href: '/company/dashboard/awardees', icon: IconAwardee },
+  { label: 'Groups',   href: '/company/dashboard/groups',   icon: IconGroup   },
+  { label: 'Account',  href: '/company/dashboard/account',  icon: IconAccount },
 ]
 
 const handleSignOut = async () => {
