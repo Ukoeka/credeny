@@ -23,7 +23,7 @@
 
       <div class="relative z-10 text-center">
         <h1 class="text-3xl lg:text-4xl font-extrabold text-[#1a1a2e] tracking-tight">Account</h1>
-        <p class="text-[#333] mt-1 text-sm">Your Credeny account</p>
+        <p class="text-[#333] mt-1 text-sm">Your Credeny Account</p>
       </div>
     </div>
 
@@ -107,10 +107,9 @@
         class="fixed inset-0 z-50 flex items-center justify-center px-4"
         @click.self="showEditModal = false"
       >
-        <!-- Backdrop -->
+      
         <div class="absolute inset-0 bg-black/40 backdrop-blur-sm" @click="showEditModal = false"></div>
 
-        <!-- Modal -->
         <div class="relative bg-white rounded-3xl shadow-2xl w-full max-w-[500px] px-8 py-8 z-10">
 
           <h2 class="text-xl font-extrabold text-[#1a1a2e] text-center mb-6 tracking-tight">
