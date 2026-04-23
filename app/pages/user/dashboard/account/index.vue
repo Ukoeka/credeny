@@ -208,7 +208,7 @@ const editError = ref('')
 const profile = ref({
   firstName: 'Mathew',
   lastName: 'Key',
-  email: 'Magdaleneemmanual@gmail.com',
+  email: 'newmailer@gmail.com',
   badgeCount: 10,
   collectionCount: 8,
   avatar: avatarImg,
