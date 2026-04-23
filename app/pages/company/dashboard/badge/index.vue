@@ -12,7 +12,7 @@
 
       <!-- Create Badge button top-right -->
       <NuxtLink
-        to="/company/dashboard/badge/create"
+        to="/company/dashboard/badge/createbadge"
         class="absolute top-4 right-4 z-20 flex items-center gap-2 text-xs font-semibold text-[#1a1a2e] bg-white/90 hover:bg-white px-3 py-2 rounded-lg shadow transition-all duration-200 backdrop-blur-sm"
       >
         Create Badge
@@ -51,7 +51,7 @@
         v-for="badge in badges"
         :key="badge.id"
         class="bg-[#FFF7EE] rounded-2xl p-4 border border-[#f0e6d8] hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 cursor-pointer group block"
-        :to="`/issuer/dashboard/badges/${badge.id}`"
+        :to="`/company/dashboard/badge/${badge.id}`"
       >
         <!-- Badge image -->
         <div class="flex justify-center mb-3">

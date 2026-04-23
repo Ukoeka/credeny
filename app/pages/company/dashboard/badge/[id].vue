@@ -110,7 +110,7 @@
 </template>
 
 <script setup>
-definePageMeta({ layout: 'dashboard' })
+definePageMeta({ layout: 'companydashboard' })
 import issuerimg from '@/assets/images/icons/avatar.png'
 
 const route = useRoute()

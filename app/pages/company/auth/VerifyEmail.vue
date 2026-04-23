@@ -31,7 +31,7 @@
           <span class="font-bold text-[#1a1a2e]">{{ maskedEmail }}</span>
         </p>
         <p class="text-sm text-[#888] text-center mb-8">
-          Didn't receive the email? Check spam or
+          Didn't receive the email? Check spam folder.
         </p>
 
         <div class="space-y-3">

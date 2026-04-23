@@ -25,7 +25,7 @@
             v-model="form.name"
             type="text"
             placeholder="Placeholder"
-            class="w-full lg:w-[50%] bg-white border border-[#e0d5c8] rounded-lg px-4 py-5 text-sm text-[#333] placeholder-[#bbb] focus:outline-none focus:border-[#c8873a] transition-colors duration-200"
+            class="w-full lg:w-[40%] bg-white border border-[#e0d5c8] rounded-lg px-4 py-5 text-sm text-[#333] placeholder-[#bbb] focus:outline-none focus:border-[#c8873a] transition-colors duration-200"
           />
         </div>
 
@@ -33,9 +33,9 @@
         <div class="flex flex-col gap-2">
           <label class="text-sm font-semibold text-[#1a1a2e]">Image Upload</label>
 
-          <label class="cursor-pointer w-[180px]">
+          <label class="cursor-pointer lg:w-[35%]">
             <div
-              class="bg-white border border-[#e0d5c8] rounded-xl p-4 flex flex-col items-center justify-center gap-3 hover:border-[#c8873a] transition-all duration-200 group min-h-[120px]"
+              class="bg-white border border-[#e0d5c8] rounded-xl p-4 flex flex-col items-center justify-center gap-3 hover:border-[#c8873a] transition-all duration-200 group min-h-[200px]"
               :class="dragOver ? 'border-[#c8873a] bg-[#fdf9f5] scale-[1.01]' : ''"
               @dragover.prevent="dragOver = true"
               @dragleave="dragOver = false"
@@ -81,7 +81,7 @@
           <textarea
             v-model="form.description"
             placeholder="Placeholder"
-            rows="6"
+            rows="10"
             class="w-full bg-white border border-[#e0d5c8] rounded-xl px-4 py-3 text-sm text-[#333] placeholder-[#bbb] focus:outline-none focus:border-[#c8873a] transition-colors duration-200 resize-none"
           ></textarea>
         </div>
@@ -93,7 +93,7 @@
             v-model="form.criteria"
             type="text"
             placeholder="Placeholder"
-            class="w-full sm:w-[260px] bg-white border border-[#e0d5c8] rounded-lg px-4 py-3 text-sm text-[#333] placeholder-[#bbb] focus:outline-none focus:border-[#c8873a] transition-colors duration-200"
+            class="w-full lg:w-[40%] bg-white border border-[#e0d5c8] rounded-lg px-4 py-3 text-sm text-[#333] placeholder-[#bbb] focus:outline-none focus:border-[#c8873a] transition-colors duration-200"
           />
         </div>
 
