@@ -6,7 +6,7 @@
       class="absolute inset-0 w-full h-full object-cover"
     />
 
-    <!-- Logo -->
+    
     <div class="relative z-10 mt-5 p-6">
       <NuxtLink to="/" class="flex flex-col items-center w-fit gap-1">
         <img src="@/assets/images/logo/logo.png" alt="Credeny Logo" />
@@ -70,10 +70,7 @@ definePageMeta({ layout: false })
 
 const route = useRoute()
 
-// Get email from query param — e.g. /verify-email?email=user@gmail.com
 const rawEmail = computed(() => route.query.email || 'Fav*****@Gmail.com')
-
-// Mask email: show first 3 chars + ***** + @domain
 const maskedEmail = computed(() => {
   const e = rawEmail.value
   const [local, domain] = e.split('@')
