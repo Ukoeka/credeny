@@ -167,8 +167,8 @@ const badges = ref([
   { id: 2, title: 'Design Degree I', description: 'Certificate of Completion in UI/UX Design', date: '4th april 2024', image: '/images/randoms/badge.png' },
   { id: 3, title: 'Design Degree I', description: 'Certificate of Completion in Data Science', date: '4th april 2024', image: '/images/randoms/badge.png' },
   { id: 4, title: 'Design Degree I', description: 'Certificate of Completion in Blockchain Development', date: '4th april 2024', image: '/images/randoms/badge.png' },
-  { id: 5, title: 'Design Degree I', description: 'Certificate of Completion in design and Visual Asset Production', date: '4th april 2024', image: '/images/randoms/badge.png' },
-  { id: 6, title: 'Design Degree I', description: 'Certificate of Completion in design and Visual Asset Production', date: '4th april 2024', image: '/images/randoms/badge.png' },
+  { id: 5, title: 'Design Degree I', description: 'Certificate of Completion in Game Development', date: '4th april 2024', image: '/images/randoms/badge.png' },
+  { id: 6, title: 'Design Degree I', description: 'Certificate of Completion in Visual Graphics', date: '4th april 2024', image: '/images/randoms/badge.png' },
   { id: 7, title: 'Design Degree I', description: 'Certificate of Completion in design and Visual Asset Production', date: '4th april 2024', image: '/images/randoms/badge.png' },
   { id: 8, title: 'Design Degree I', description: 'Certificate of Completion in design and Visual Asset Production', date: '4th april 2024', image: '/images/randoms/badge.png' },
 ])
