@@ -2,7 +2,7 @@
   <div>
 
     <!-- ── Hero Banner ── -->
-    <div class="relative w-full rounded-2xl overflow-hidden mb-6 h-[160px] flex items-center justify-center">
+    <div class="relative w-full rounded-2xl overflow-hidden mb-6 h-[200px] flex items-center justify-center">
       <img
         src="@/assets/images/backgrounds/dashboard-banner.png"
         alt=""
