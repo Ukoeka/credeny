@@ -15,7 +15,7 @@
     </div>
 
     <!-- Form card -->
-    <div class="bg-[#faf5ee] rounded-2xl border border-dashed border-[#e0d5c8] px-8 py-8 max-w-[780px]">
+    <div class="bg-[#faf5ee] rounded-2xl border border-dashed border-[#e0d5c8] px-8 py-8 w-full">
       <div class="space-y-7">
 
         <!-- Group Name -->
@@ -37,7 +37,7 @@
               v-for="(banner, i) in bannerOptions"
               :key="i"
               type="button"
-              class="relative w-[110px] h-[80px] rounded-xl overflow-hidden border-[3px] transition-all duration-200 flex-shrink-0 focus:outline-none"
+              class="relative w-[350px] h-[200px] rounded-xl overflow-hidden border-[3px] transition-all duration-200 flex-shrink-0 focus:outline-none"
               :class="form.selectedBanner === i
                 ? 'border-[#c8873a] shadow-lg scale-[1.04]'
                 : 'border-transparent hover:border-[#c8873a]/40 hover:scale-[1.02]'"
@@ -52,7 +52,7 @@
             </button>
 
             <!-- Upload custom -->
-            <label class="w-[110px] h-[80px] rounded-xl border-2 border-dashed border-[#e0d5c8] hover:border-[#c8873a] flex flex-col items-center justify-center gap-1 cursor-pointer transition-colors duration-200 flex-shrink-0 group">
+            <label class="w-[350px] h-[200px] rounded-xl border-2 border-dashed border-[#e0d5c8] hover:border-[#c8873a] flex flex-col items-center justify-center gap-1 cursor-pointer transition-colors duration-200 flex-shrink-0 group">
               <svg class="w-5 h-5 text-[#ccc] group-hover:text-[#c8873a] transition-colors duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4"/>
               </svg>
@@ -89,6 +89,10 @@
 </template>
 
 <script setup>
+import banner1 from '@/assets/images/randoms/banner1.png'
+import banner2 from '@/assets/images/randoms/banner2.png'
+import banner3 from '@/assets/images/randoms/banner3.png'
+import banner4 from '@/assets/images/randoms/banner4.png'
 definePageMeta({ layout: 'companydashboard' })
 
 const loading = ref(false)
@@ -101,11 +105,10 @@ const form = ref({
 })
 
 const bannerOptions = [
-  { src: '/images/banners/banner-1.png', alt: 'Blue waves' },
-  { src: '/images/banners/banner-2.png', alt: 'Coloured stripes' },
-  { src: '/images/banners/banner-3.png', alt: 'Abstract paint' },
-  { src: '/images/banners/banner-4.png', alt: 'Green yellow flow' },
-  { src: '/images/banners/banner-5.png', alt: 'Pink marble' },
+  { src: banner1, alt: 'Blue waves' },
+  { src: banner2, alt: 'Coloured stripes' },
+  { src: banner3, alt: 'Abstract paint' },
+  { src: banner4, alt: 'Green yellow flow' },
 ]
 
 const handleCustomBanner = (e) => {
