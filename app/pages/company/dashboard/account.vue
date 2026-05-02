@@ -49,7 +49,7 @@
           <p class="text-sm text-[#555]">{{ company.email }}</p>
         </div>
         <div>
-          <p class="text-xs font-semibold text-[#1a1a2e] mb-0.5">BAdges</p>
+          <p class="text-xs font-semibold text-[#1a1a2e] mb-0.5">Badges</p>
           <p class="text-sm text-[#555]">{{ company.badgeCount }}</p>
         </div>
         <div>
