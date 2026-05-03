@@ -121,7 +121,7 @@
             class="w-full flex items-center justify-center gap-3 bg-white border border-[#e0d5c8] hover:border-[#c8873a] text-[#333] font-medium text-sm py-3.5 sm:py-4 rounded-xl transition-all duration-200 hover:shadow-md"
           >
             <img src="@/assets/images/logo/google-logo.png" alt="" class="w-5 h-5 flex-shrink-0" />
-            Sign up with Google
+            Or Sign up with Google
           </button>
 
         </form>
