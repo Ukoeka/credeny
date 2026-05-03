@@ -41,7 +41,7 @@
       <!-- Details grid -->
       <div class="grid grid-cols-2 sm:grid-cols-3 gap-x-14 gap-y-5 flex-1">
         <div>
-          <p class="text-xs font-semibold text-[#1a1a2e] mb-0.5">Company Name</p>
+          <p class="text-xs font-semibold text-[#1a1a2e] mb-0.5">Compa Name</p>
           <p class="text-sm text-[#555]">{{ company.name }}</p>
         </div>
         <div class="col-span-1 sm:col-span-2">
