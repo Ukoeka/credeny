@@ -23,7 +23,7 @@
 
       <div class="relative z-10 text-center">
         <h1 class="text-3xl lg:text-4xl font-extrabold text-[#1a1a2e] tracking-tight">Company Account</h1>
-        <p class="text-[#333] text-sm mt-1">Your Credeny account</p>
+        <p class="text-[#333] text-sm mt-1">Your Company Credeny account</p>
       </div>
     </div>
 
